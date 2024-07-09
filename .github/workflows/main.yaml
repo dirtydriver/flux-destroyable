@@ -1,8 +1,8 @@
 name: Scheduled destroyer
 
 on:
-  schedule:
-    - cron: '00 18 * * *'
+  #schedule:
+  #  - cron: '00 18 * * *'
   workflow_dispatch:
 
 env:
